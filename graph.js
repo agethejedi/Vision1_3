@@ -27,3 +27,5 @@ function bandClass(score, blocked){
   if (score >= 60) return 'band-elevated';
   return 'band-moderate';
 }
+// Export compatibility for existing imports
+export const graph = { nodeClassesFor };
